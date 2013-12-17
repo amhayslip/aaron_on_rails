@@ -1,0 +1,714 @@
+/*colors
+
+#EAEBE7 off-white
+#FF5B5A red
+#575656 dark-grey
+#8F969C light-grey
+#7AC9C3 turquoise
+*/
+
+
+/*------------Fonts----------------*/
+@font-face {
+    font-family: "corki";
+    src: url("fonts/Corki-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "rokkitt";
+    src: url("fonts/Rokkitt.otf") format("opentype");
+}
+
+/*---------UNIVERSAL STYLES-----------*/
+html {
+    background-color: #EAEBE7;
+    max-width: 100%
+} 
+
+a {
+  color:#FF5B5A
+}    
+
+nav {
+    height: 60px;
+}    
+    
+ul {
+    margin-top: 15px ;
+    position: fixed;
+    text-align:center;
+    margin-left: 50%;
+    left: -1630px;
+    width: 660px;
+    background-color: #CCCCCC;
+    height: 15px;
+    padding-top: 9px;
+    padding-left: 1300px;
+    padding-right: 1300px;
+    box-shadow: 1px 1px 1px 1px #B3B3B3;
+    padding-bottom: 8px;
+}
+ul li {
+    display: inline;
+    padding: 10px;
+    line-height: 18px; 
+}
+ul li a {
+    text-decoration:none;
+    font-family: "corki", sans-serif;
+    font-size: 1.5em;
+    color: #575656;
+}  
+ul li a:hover {
+    color: #FF5B5A;
+}
+#blank {
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -40px;
+    width: 1px;
+}    
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    max-width: 100%;
+    margin-top: 70px;    
+    }
+    
+h1.aaron {
+    text-align:center;
+    font-family: "corki", sans-serif;
+    color: #FF5B5A;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: none;
+}
+h2 {
+    text-align:center;
+    font-family: "corki", sans-serif;
+    color: #575656;
+    margin-bottom: 10px;
+    border-bottom: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: #575656;
+}
+p.twitter {
+    margin-top: 10px;
+    font-family: "corki";
+    font-size: 2em;
+    text-align: center;
+}
+a.twitter:hover {
+   color: #FF5B5A;
+}                                                      
+a.twitter {
+    text-decoration: none;
+    color:  #575656;                                                    
+}                                                         
+a.twitter:visited {
+    color: #575656                    
+}     
+                                                    
+                                                    
+p.email {
+    margin-top: -30px;
+    font-family: "corki";
+    font-size: 2em;
+    text-align: center; 
+} 
+a.email:hover {
+    color: #FF5B5A;                     
+}  
+a.email {
+    text-decoration: none;
+    color: #575656                    
+}
+a.email:visited {
+    color: #575656                    
+    } 
+
+p.blog {
+    margin-top: -30px;
+    font-family: "corki";
+    font-size: 2em;
+    text-align: center; 
+    margin-bottom: 9px;
+} 
+a.blog:hover {
+    color: #FF5B5A;                     
+}  
+a.blog {
+    text-decoration: none;
+    color: #575656                    
+}
+a.blog:visited {
+    color: #575656                    
+    }   
+
+.about {
+    margin:0 auto;
+    padding:0;
+  width:200px;
+    text-align:center;
+}
+
+.slide a:hover{
+    cursor:pointer;
+    color: #FF5B5A;
+}
+.panel {
+    margin-top: -70px;
+    background-size:90% 90%;
+    height:200px;
+  display:none;
+    font-family:garamond,times-new-roman,serif;
+}
+.panel p{
+    text-align:center;
+}
+.slide {
+  margin:0;
+  padding:0;
+  border-top: 2px #575656;
+    margin-top: -20px;
+}
+.pull-me {
+  display:block;
+    position:relative;
+    right:-25px;
+    width:150px;
+    height:34px;
+  font-family:"corki",sans-serif;
+    font-size:30px;
+  color:#575656;
+  text-decoration:none;
+    border: 2px solid;
+
+}
+.pull-me p {
+    text-align:center;
+}    
+
+
+
+
+
+
+
+/*********************** large Layout **********************/
+@media only screen and (min-width:518px){
+body {
+  
+}
+h2 {
+    font-size: 30px;
+    width: 170px;
+    padding-top: 85px;
+}
+
+/*summary*/
+article.summary {
+    height: 800px;                  
+}
+            
+h3.maker {
+    text-align:center;
+    font-family: "lobster";
+    color: #575656;
+    font-size: 24px;
+    max-width: 781px;
+    margin: auto;
+    margin-top: 25px;                    
+}
+.makerlink {
+    text-decoration: none;
+    color: #FF5B5A;
+}
+.makerlink:visited {
+    color: #FF5B5A;                     
+}                        
+h1.design {
+    text-align:center;
+    font-family: "corki", sans-serif;
+    color: #FF5B5A;          
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;                   
+}
+a.design {
+    text-decoration: none;                    
+}    
+a.design:visited {
+    color: #FF5B5A;                     
+}                        
+img.macphone{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+                                        
+/*pojects*/
+article.projects {
+    height: 700px;                    
+}        
+h4.comingsoon {
+    margin-top: 70px;                    
+    font-family: "corki", sans-serif;
+    text-align:center;
+    font-size: 5em;
+    color: #575656;
+    max-width: 700px;
+    margin: auto;                                  
+}
+comingsoon, a:visited {
+    color: #575656;                    
+}
+comingsoon, a {
+    text-decoration:none;                    
+}                        
+             
+                     
+                                                                               
+/*what i know
+article.whatiknow {
+    height: 800px;
+    margin-top: 50px;
+}                  
+p.whatiknow {
+    max-width: 34%%;
+    min-width: 20%;
+    margin-left: 18%; 
+    margin-top: 5%;
+    height: 200px;
+}
+img.aaron {
+    max-width: 200px;
+    float: right;
+    margin-right: 28%;
+    margin-top: -220px;
+    opacity: ;
+}                        
+
+.col1 {
+    margin-left: 19%;        
+    width: 14.1%;
+    margin-right: 1.666%;
+    float: left;
+    text-align:center;      
+}                    
+.col2, .col3 {
+    width: 14.1%;
+    margin-right: 1.666%;
+    float: left;
+    text-align:center;                    
+}
+.col4 {
+    width: 14.1%;
+    float: left;
+    text-align:center;                    
+}                                        
+img.inquire, img.plan {
+    width: 100px;                   
+}                    
+img.build {
+    width: 100px; 
+    height: 125px;
+    padding-top: 18px;      
+} 
+img.launch {
+    padding-top: 124.8px;
+}                        
+h4 {
+    margin-top: 10px;                    
+    font-family: corki;
+    font-size: 2em;
+    margin-bottom: -10px;
+    color: #575656;                     
+}       
+*/                    
+                    
+/*contactme*/
+article.contact{
+    height: 800px;                    
+} 
+h2#contact{
+    display: none;                    
+}                          
+img#aaron {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    margin-top: -70px;
+    padding-top: 70px;
+}
+p.blog {
+    display:none;
+}
+
+p.me {
+    font-family: "adelle", sans-serif;                    
+}   
+
+.panel {
+    height: 260px; 
+}                        
+                    
+                  
+                    
+}
+
+/********************** Mediaum Layout ************************/
+@media only screen and (min-width:401px) and (max-width:517px) {
+
+h2 {
+    font-size: 30px;
+    width: 170px;
+    padding-top: 85px;
+}
+
+/*summary*/
+article.summary {
+    height: 800px;                  
+}                    
+h3.maker {
+    text-align:center;
+    font-family: "lobster";
+    color: #575656;
+    font-size: 24px;
+    max-width: 781px;
+    margin: auto;
+    margin-top: 25px;                    
+}
+.makerlink {
+    text-decoration: none;
+    color: #FF5B5A;
+}
+.makerlink:visited {
+    color: #FF5B5A;                     
+}                        
+h1.design {
+    text-align:center;
+    font-family: "corki", sans-serif;
+    color: #FF5B5A;          
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;                   
+}
+a.design {
+    text-decoration: none;                    
+}    
+a.design:visited {
+    color: #FF5B5A;                     
+}                        
+img.macphone{
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}                                              
+                                        
+/*pojects*/
+article.projects {
+    height: 700px;                    
+}        
+h4.comingsoon {
+    padding-top: 50px;
+    margin-top: 70px;                    
+    font-family: "corki", sans-serif;
+    text-align:center;
+    font-size: 50px;
+    color: #575656;
+    max-width: 450px;
+    margin: auto;                                  
+}
+comingsoon, a:visited {
+    color: #575656;                    
+}
+comingsoon, a {
+    text-decoration:none;                    
+}                                   
+             
+                     
+                                                                               
+/*what i know*
+article.whatiknow {
+    height: 800px;
+    margin-top: 50px;
+}                  
+p.whatiknow {
+    max-width: 34%%;
+    min-width: 20%;
+    margin-left: 18%; 
+    margin-top: 5%;
+    height: 200px;
+}
+img.aaron {
+    max-width: 200px;
+    float: right;
+    margin-right: 28%;
+    margin-top: -220px;
+    opacity: ;
+}                        
+
+.col1 {
+    margin-left: 19%;        
+    width: 14.1%;
+    margin-right: 1.666%;
+    float: left;
+    text-align:center;      
+}                    
+.col2, .col3 {
+    width: 14.1%;
+    margin-right: 1.666%;
+    float: left;
+    text-align:center;                    
+}
+.col4 {
+    width: 14.1%;
+    float: left;
+    text-align:center;                    
+}                                        
+img.inquire, img.plan {
+    width: 100px;                   
+}                    
+img.build {
+    width: 100px; 
+    height: 125px;
+    padding-top: 18px;      
+} 
+img.launch {
+    padding-top: 124.8px;
+}                        
+h4 {
+    margin-top: 10px;                    
+    font-family: corki;
+    font-size: 2em;
+    margin-bottom: -10px;
+    color: #575656;                     
+}       
+*/                    
+                    
+/*contactme*/
+article.contact {
+    height: 800px;                  
+} 
+                        
+img#aaron {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    margin-top: -70px;
+    padding-top: 70px;
+}
+h2#contact {
+    display: none;
+}
+                                    
+p.blog {
+    display:none;
+} 
+
+p.me {
+    font-family: "adelle", sans-serif;                    
+}   
+
+.panel {
+    height: 260px; 
+}   
+             
+                    
+                  
+                    
+}
+/************************ Small Layout *************************/
+@media only screen and (max-width:400px)  {
+                                                    
+nav ul {
+    display: none;
+  } 
+
+img.logo {
+    margin-top: -40px;
+}  
+                                               
+h2 {
+    font-size: 30px;
+    width: 170px;
+    padding-top: 85px;
+}
+
+/*summary*/
+article.summary {
+    margin-top: 50px;
+    height: 400px;
+}                    
+h3.maker {
+    text-align:center;
+    font-family: "lobster";
+    color: #575656;
+    font-size: 20px;
+    max-width: 781px;
+    margin: auto;
+    margin-top: 25px;                    
+}
+.makerlink {
+    text-decoration: none;
+    color: #FF5B5A;
+}
+.makerlink:visited {
+    color: #FF5B5A;                     
+}                        
+h1.design {
+    text-align:center;
+    font-family: "corki", sans-serif;
+    color: #FF5B5A;          
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;                   
+}
+a.design {
+    text-decoration: none;                    
+}    
+a.design:visited {
+    color: #FF5B5A;                     
+}                        
+img.macphone {
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}             
+                                        
+/*pojects*/
+article.projects {
+    height: 450px;                    
+}       
+
+h4.comingsoon {
+    padding-top: 0px;
+    margin-top: 70px;                    
+    font-family: "corki", sans-serif;
+    text-align:center;
+    font-size: 50px;
+    color: #575656;
+    max-width: 450px;
+    margin: auto;                                  
+}
+comingsoon, a:visited {
+    color: #575656;                    
+}
+comingsoon, a {
+    text-decoration:none;                    
+}                      
+                     
+                                                                               
+/*what i know
+article.whatiknow {
+    height: 800px;
+    margin-top: 50px;
+}                  
+p.whatiknow {
+    max-width: 34%%;
+    min-width: 20%;
+    margin-left: 18%; 
+    margin-top: 5%;
+    height: 200px;
+}
+img.aaron {
+    max-width: 200px;
+    float: right;
+    margin-right: 28%;
+    margin-top: -220px;
+    opacity: ;
+}                        
+
+.col1 {
+    margin-left: 19%;        
+    width: 14.1%;
+    margin-right: 1.666%;
+    float: left;
+    text-align:center;      
+}                    
+.col2, .col3 {
+    width: 14.1%;
+    margin-right: 1.666%;
+    float: left;
+    text-align:center;                    
+}
+.col4 {
+    width: 14.1%;
+    float: left;
+    text-align:center;                    
+}                                        
+img.inquire, img.plan {
+    width: 100px;                   
+}                    
+img.build {
+    width: 100px; 
+    height: 125px;
+    padding-top: 18px;      
+} 
+img.launch {
+    padding-top: 124.8px;
+}                        
+h4 {
+    margin-top: 10px;                    
+    font-family: corki;
+    font-size: 2em;
+    margin-bottom: -10px;
+    color: #575656;                     
+}       
+*/                    
+                    
+/*contactme*/
+article.contact{
+    height: 750px;                  
+} 
+h2#contactme{
+                     
+}                        
+img#aaron {
+    max-width: 200px;                                                    
+    margin: auto;
+    display: block;
+    margin-top: -40px;
+    padding-top: 70px;
+}
+.slide {
+  margin:0;
+  padding:0;
+  border-top: 2px #575656;
+    margin-top: -6px;
+}
+                                                    
+.panel {
+  height: 240px;
+  margin-top: -60px;                                                            
+}    
+
+p.me {
+    font-family: "adelle", sans-serif;                    
+}   
+                  
+                    
+                    
+                  
+                    
+}
+
